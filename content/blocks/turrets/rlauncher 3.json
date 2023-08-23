@@ -1,0 +1,95 @@
+
+type: ItemTurret
+name: rocket launcher t3
+health: 400
+size: 2
+reload: 90
+research: rlanch 2 
+inaccuracy: 3
+recoilAmount: 0.1
+targetAir: true
+range: 150
+restitution: 0
+acceptCoolant: false
+coolantMultiplier: 0
+maxAmmo: 6
+   "rocket(F) 3.0": {
+    "type": "MissileBulletType",
+    "frontColor": "d7876f",
+    "backColor": "d7876f",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "splashDamageRadius": 10,
+    "splashDamage": 100,
+    "damage": 250,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "status": "burning"
+    "statusDuration": 480
+    "speed": 6,
+    "lifetime": 30
+   }
+   "rocket(frezze) 3.0": {
+    "type": "MissileBulletType",
+    "frontColor": "e3fdfd",
+    "backColor": "e3fdfd",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "splashDamageRadius": 10,
+    "splashDamage": 50,
+    "damage": 200,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "status": "freezing"
+    "statusDuration": 420
+    "speed": 6,
+    "lifetime": 30
+   }
+   "rocket(Exp) 3.0": {
+    "type": "MissileBulletType",
+    "frontColor": "e79296",
+    "backColor": "e79296",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "splashDamageRadius": 12,
+    "splashDamage": 170,
+    "damage": 280,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "status": "burning"
+    "statusDuration": 60
+    "speed": 6,
+    "lifetime": 30
+   }
+}
+requirements: [   
+  {
+   item: copper
+   amount: 500 
+  }
+  {
+   item: lead
+   amount: 350 
+  }
+  {
+   item: graphite
+   amount: 230 
+  }
+  {
+   item: silicon
+   amount: 200 
+  }
+  {
+   item: plastanium
+   amount: 50 
+  }
+]
+category: turret
+
+
